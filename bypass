@@ -1,0 +1,2 @@
+aws s3 sync . s3://dna-autodidact-production-bucket/repos/react-3ff57899a-weather-app-scaffolding_react_app1-1717068709358/master/ --delete --exclude ./venv/\* --exclude ./env/\*
+echo Success
